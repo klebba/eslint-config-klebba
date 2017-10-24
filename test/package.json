@@ -5,6 +5,7 @@
   "license": "MIT",
   "main": ".eslintrc.js",
   "scripts": {
+    "test": "eslint .",
     "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
   },
   "dependencies": {
