@@ -1,8 +1,12 @@
 {
   "name": "eslint-config-klebba",
-  "version": "1.0.0",
+  "author": "Casey Klebba",
+  "description": "ESLint + Prettier base config.",
+  "version": "1.0.1",
   "license": "MIT",
+  "repository": "klebba/eslint-config-klebba",
   "main": "index.js",
+  "module": "index.js",
   "dependencies": {
     "eslint": "^4.9.0",
     "eslint-config-prettier": "^2.6.0",
