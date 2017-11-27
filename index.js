@@ -15,7 +15,7 @@ module.exports = {
     'no-shadow': ['warn', { builtinGlobals: true, hoist: 'functions', allow: [] }],
     'no-undef': 'error',
     'no-undef-init': 'error',
-    'no-unused-vars': 'off',
+    'no-unused-vars': 'warn',
     'no-var': 'error',
     'prefer-arrow-callback': ['error', { allowNamedFunctions: true }],
     'prefer-const': 'error',
